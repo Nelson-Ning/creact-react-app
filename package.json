@@ -21,8 +21,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "cross-env NODE_ENV=production webpack --optimize-minimize",
-        "dev": "cross-env NODE_ENV=development webpack-dev-server --config webpack.dev.config.js --progress --colors",
-        "clean": "rm -rf bjh-gang-fe/ && rm -rf output/"
+        "dev": "cross-env NODE_ENV=development webpack-dev-server --config webpack.dev.config.js --progress --colors"
     },
     "devDependencies": {
         "autoprefixer": "8.4.1",
